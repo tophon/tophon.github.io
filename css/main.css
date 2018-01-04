@@ -2070,7 +2070,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f2ff28;
+  background: #ff4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3244,4 +3244,30 @@ img:hover {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+#rewardButton {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+/* border-radius: 5px; */
+  padding: 0;
+/* margin: 0; */
+/* letter-spacing: normal; */
+/* text-transform: none; */
+  text-indent: 0;
+/* text-shadow: none; */
+}
+#rewardButton span {
+  display: inline-block;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-size: 18px;
+  font-family: "Microsoft Yahei";
+  background: #f44336;
 }
